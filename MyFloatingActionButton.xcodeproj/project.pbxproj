@@ -11,6 +11,9 @@
 		420FE42E27D5BD81002E834B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FE42D27D5BD81002E834B /* ContentView.swift */; };
 		420FE43027D5BD83002E834B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420FE42F27D5BD83002E834B /* Assets.xcassets */; };
 		420FE43327D5BD83002E834B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420FE43227D5BD83002E834B /* Preview Assets.xcassets */; };
+		420FE43C27D5C1B4002E834B /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FE43B27D5C1B4002E834B /* FloatingActionButton.swift */; };
+		420FE43E27D5C518002E834B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FE43D27D5C518002E834B /* Extension.swift */; };
+		420FE44027D5F513002E834B /* GeometryGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FE43F27D5F513002E834B /* GeometryGetter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		420FE42D27D5BD81002E834B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		420FE42F27D5BD83002E834B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420FE43227D5BD83002E834B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		420FE43B27D5C1B4002E834B /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		420FE43D27D5C518002E834B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		420FE43F27D5F513002E834B /* GeometryGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryGetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		420FE41F27D5BD81002E834B = {
 			isa = PBXGroup;
 			children = (
+				420FE43F27D5F513002E834B /* GeometryGetter.swift */,
 				420FE42A27D5BD81002E834B /* MyFloatingActionButton */,
 				420FE42927D5BD81002E834B /* Products */,
 			);
@@ -55,6 +62,8 @@
 				420FE42D27D5BD81002E834B /* ContentView.swift */,
 				420FE42F27D5BD83002E834B /* Assets.xcassets */,
 				420FE43127D5BD83002E834B /* Preview Content */,
+				420FE43B27D5C1B4002E834B /* FloatingActionButton.swift */,
+				420FE43D27D5C518002E834B /* Extension.swift */,
 			);
 			path = MyFloatingActionButton;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				420FE42E27D5BD81002E834B /* ContentView.swift in Sources */,
+				420FE43C27D5C1B4002E834B /* FloatingActionButton.swift in Sources */,
 				420FE42C27D5BD81002E834B /* MyFloatingActionButtonApp.swift in Sources */,
+				420FE43E27D5C518002E834B /* Extension.swift in Sources */,
+				420FE44027D5F513002E834B /* GeometryGetter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
