@@ -21,16 +21,20 @@ struct FloatingActionButton<fabView: View>: ViewModifier {
       ZStack {
         Color.clear
         content
-        view
-          .onTapGesture(perform: action)
-          .background(backgroundColor.cornerRadius(24))
-          .padding(16)
-          .shadow(color: .gray, radius: 3, x: 0, y: 1)
-          .background(
-            GeometryGetter(rect: $rect)
-          )
-          .position(x: getXPosition(geo),
-                    y: geo.size.height - margin)
+        Button {
+          action()
+        } label: {
+          view
+        }
+        .buttonStyle(PlainButtonStyle())
+        .background(backgroundColor.cornerRadius(24))
+        .padding(16)
+        .shadow(color: .gray, radius: 3, x: 0, y: 1)
+        .background(
+          GeometryGetter(rect: $rect)
+        )
+        .position(x: getXPosition(geo),
+                  y: geo.size.height - margin)
       }
     }
   }
